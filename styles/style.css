@@ -89,3 +89,54 @@
     text-decoration: underline;
     text-underline-offset: 4px;
 }
+
+.cover {
+    margin: 0 9px 13px 9px;
+    background-image: url("/images/lotus-flower.png");
+    background-size: cover;
+    background-position: center;
+    width: 1082px;
+    height: 744px;
+}
+
+.cover__title-font {
+    color: #fff;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: uppercase;
+}
+
+.cover__info-text-font {
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.cover__info {
+    width: 633px;
+    height: 28px;
+}
+
+.cover__button-font {
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.cover__button {
+    text-align: center;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #fff;
+    width: 252px;
+    height: 52px;
+    padding: 11px 28px 11px 29px;
+}
