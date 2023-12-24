@@ -7,13 +7,35 @@
 
 .header__menu-list {
     display: flex;
-    gap: 32px;
-    list-style: circle;
+    list-style: none;
 }
 
 .header__menu-item {
     text-decoration: underline;
     text-underline-offset: 5px;
+    position: relative;
+    /*Создал margin слева в 32px */
+    /*В эти 32px должно влезть кольцо разделитель, которое 7x7 px, при этом кольцо ровно по середине этого расстояния */
+    margin-left: 32px;
+}
+
+.header__menu-item:first-child {
+    /*Первый menu item не имеет разделителя, поэтому обнуляем margin для этого элемента */
+    margin-left: 0;
+}
+
+.header__menu-item:not(:first-child)::before {
+    content: '';
+    display: block;
+    width: 7px; /*Ширина кольца */
+    height: 7px; /*Высота кольца */
+    border: 1px solid black; /*Граница кольца 1px */
+    border-radius: 50%; /*Закругляем Кольцо */
+    position: absolute;
+    /*Позиционируем кольцо на 20px (7px кольцо + 12px отступ по figma) левее от начала list item  */
+    left: -19px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .header__menu-link {
