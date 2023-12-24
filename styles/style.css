@@ -5,6 +5,10 @@
     padding: 92px 24px 91px 24px;
 }
 
+.header__menu {
+    padding: 41px 32px 41px 32px;
+}
+
 .header__menu-list {
     display: flex;
     list-style: none;
@@ -32,7 +36,7 @@
     border: 1px solid black; /*Граница кольца 1px */
     border-radius: 50%; /*Закругляем Кольцо */
     position: absolute;
-    /*Позиционируем кольцо на 20px (7px кольцо + 12px отступ по figma) левее от начала list item  */
+    /*Позиционируем кольцо на 19px (7px кольцо + 12px отступ по figma) левее от начала list item  */
     left: -19px;
     top: 50%;
     transform: translateY(-50%);
@@ -63,6 +67,7 @@
 .header__about {
     display: flex;
     flex-direction: column;
+    padding: 3px 30px 5px 180px;
 }
 
 .header__about-font {
