@@ -1,4 +1,63 @@
 .header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 92px 24px 91px 24px;
+}
+
+.header__menu-list {
+    display: flex;
+    gap: 32px;
+    list-style: circle;
+}
+
+.header__menu-link {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__menu-item.header__menu-item_active {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header__logo {
+    width: 148px;
+    height: 105px;
+}
+
+.header__logo-image {
+    width: 100%;
+}
+
+.header__about {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__about-phone {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35;
+}
+
+.header__about-email {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35;
+}
+
+.header__about-address {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35;
 }
