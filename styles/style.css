@@ -1,9 +1,17 @@
+/* ============ */
+/* 1. HEADER    */
+/* ============ */
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 92px 24px 91px 24px;
 }
+
+/* ============        */
+/* 1.1 HEADER NAV MENU */
+/* ============        */
 
 .header__menu {
     padding: 41px 32px 41px 32px;
@@ -55,6 +63,10 @@
     list-style: none;
 }
 
+/* ============    */
+/* 1.2 HEADER LOGO */
+/* ============    */
+
 .header__logo {
     width: 148px;
     height: 105px;
@@ -63,6 +75,10 @@
 .header__logo-image {
     width: 100%;
 }
+
+/* ============    */
+/* 1.3 HEADER INFO */
+/* ============    */
 
 .header__about {
     display: flex;
@@ -90,32 +106,109 @@
     text-underline-offset: 4px;
 }
 
+/* ============    */
+/* 2. COVER        */
+/* ============    */
+
+/* ============                */
+/* 2.1 COVER IMAGE AND OVERLAY */
+/* ============                */
+
 .cover {
-    margin: 0 9px 13px 9px;
+    margin: 1px 9px 19px 9px;
     background-image: url("/images/lotus-flower.png");
     background-size: cover;
     background-position: center;
     width: 1082px;
-    height: 744px;
+    height: 764px;
+    color: #fff;
 }
 
-.cover__title-font {
-    color: #fff;
+.cover__overlay {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+/* ============    */
+/* 2.2 COVER TITLE */
+/* ============    */
+
+.cover__title{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* ============           */
+/* 2.2.1 COVER TITLE TEXT */
+/* ============           */
+
+.cover__title-font-general{
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.15;
-    text-transform: uppercase;
+    line-height: 100%;
 }
 
-.cover__info-text-font {
-    color: #fff;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-    text-transform: uppercase;
+.cover__title-font-first-special-height {
+    line-height: 115%;
 }
+
+.cover__align__text-left {
+    text-align: left;
+}
+
+.cover__align__text-right {
+    text-align: right;
+}
+
+.cover__letter_spacing_none{
+    letter-spacing: 0;
+}
+
+.cover__letter_spacing_28{
+    letter-spacing: 28px;
+}
+
+.cover__letter_spacing_30{
+    letter-spacing: 30px;
+}
+
+.cover__letter_spacing_57{
+    letter-spacing: 57px;
+}
+
+.cover__letter_spacing_59{
+    letter-spacing: 59px;
+}
+
+.cover__letter_spacing_60 {
+    letter-spacing: 60px;
+}
+
+/* ============                  */
+/* 2.2.2 COVER TITLE POSITIONING */
+/* ============                  */
+
+.cover__title__part-one {
+    margin-top: 162px;
+    margin-left: 47px;
+}
+
+.cover__title__part-two {
+    margin-top: 17px;
+    margin-left: 330px;
+}
+
+.cover__title__part-three {
+    margin-top: 19px;
+    margin-right: 49px;
+}
+
+
+
 
 .cover__info {
     width: 633px;
@@ -140,3 +233,7 @@
     height: 52px;
     padding: 11px 28px 11px 29px;
 }
+
+/* ============ */
+/* COVER END    */
+/* ============ */
