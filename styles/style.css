@@ -14,7 +14,8 @@
 /* ============        */
 
 .header__menu {
-    padding: 44px 40px 39px 26px;
+    width: 387px;
+    margin: 44px 40px 39px 26px;
 }
 
 .header__menu-list {
@@ -82,8 +83,9 @@
 
 .header__about {
     display: flex;
+    width: 240px;
     flex-direction: column;
-    padding: 5px 25px 2px 185px;
+    margin: 5px 25px 2px 185px;
 }
 
 .header__about-font {
