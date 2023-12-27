@@ -382,3 +382,61 @@
 /* ============    */
 /* 4. ABOUT        */
 /* ============    */
+
+.about {
+    display: flex;
+    flex-direction: row;
+    margin: 0 24px 178px 24px;
+}
+
+.about__logo {
+    display: flex;
+    width: 334px;
+    height: 563px;
+    padding: 35px 47px 320px 47px;
+}
+
+.about__logo__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+}
+
+.about__logo__container-pic{
+    width: 148px;
+    height: 114px;
+}
+
+.about__info {
+    margin-top: 133px;
+    margin-left: 25px;
+}
+
+.about__info-title {
+    margin-bottom: 101px;
+}
+
+.about__info-text-font > p:first-child {
+    margin-bottom: 26px;
+}
+
+.about__info-title-font {
+    color: #000;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.about__info-text-font {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
