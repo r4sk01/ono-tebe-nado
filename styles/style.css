@@ -129,7 +129,7 @@
 /* 2.2 COVER TITLE */
 /* ============    */
 
-.cover__title{
+.cover__title {
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
@@ -140,7 +140,7 @@
 /* 2.2.1 COVER TITLE TEXT */
 /* ============           */
 
-.cover__title-font-general{
+.cover__title-font-general {
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -159,23 +159,23 @@
     text-align: right;
 }
 
-.cover__letter_spacing_none{
+.cover__letter_spacing_none {
     letter-spacing: 0;
 }
 
-.cover__letter_spacing_28{
+.cover__letter_spacing_28 {
     letter-spacing: 28px;
 }
 
-.cover__letter_spacing_30{
+.cover__letter_spacing_30 {
     letter-spacing: 30px;
 }
 
-.cover__letter_spacing_57{
+.cover__letter_spacing_57 {
     letter-spacing: 57px;
 }
 
-.cover__letter_spacing_59{
+.cover__letter_spacing_59 {
     letter-spacing: 59px;
 }
 
@@ -289,11 +289,11 @@
     column-gap: 25px;
 }
 
-.lots__list-item-link{
+.lots__list-item-link {
     text-decoration: none;
 }
 
-.lots__card-type-film{
+.lots__card-type-film {
     background-image: url("/images/card-01.jpg");
     background-size: cover;
     background-position: center;
@@ -301,7 +301,7 @@
     height: 563px;
 }
 
-.lots__card-type-book{
+.lots__card-type-book {
     background-image: url("/images/card-02.jpg");
     background-size: cover;
     background-position: center;
@@ -309,7 +309,7 @@
     height: 563px;
 }
 
-.lots__card-type-picture{
+.lots__card-type-picture {
     background-image: url("/images/card-03.jpg");
     background-size: cover;
     background-position: center;
@@ -317,7 +317,7 @@
     height: 563px;
 }
 
-.lots__card-overlay{
+.lots__card-overlay {
     height: inherit;
     background-color: rgba(0, 0, 0, 0.6);
     display: flex;
@@ -404,7 +404,7 @@
     height: 240px;
 }
 
-.about__logo__container-pic{
+.about__logo__container-pic {
     width: 148px;
     height: 114px;
 }
