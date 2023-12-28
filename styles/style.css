@@ -74,7 +74,8 @@
 }
 
 .header__logo-image {
-    width: 100%;
+    width: 148px;
+    height: 105px;
 }
 
 /* ============    */
@@ -218,7 +219,8 @@
 .cover__info-text {
     width: 635px;
     height: 28px;
-    word-spacing: 17px;
+    /* Использование 17px вызывает несоответствие шаблону */
+    word-spacing: 18px;
     margin-right: 77px;
     margin-left: 82px;
 }
