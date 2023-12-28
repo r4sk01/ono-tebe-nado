@@ -160,6 +160,10 @@
     text-align: right;
 }
 
+.cover__letter-display {
+    display: inline-block;
+}
+
 .cover__letter_spacing_none {
     letter-spacing: 0;
 }
