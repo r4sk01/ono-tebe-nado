@@ -112,7 +112,7 @@
 /* ============                */
 
 .cover {
-    background-image: url("/images/lotus-flower.jpg");
+    background-image: url("../images/lotus-flower.jpg");
     background-size: cover;
     background-position: center;
     width: 1100px;
@@ -296,7 +296,7 @@
 }
 
 .lots__card-type-film {
-    background-image: url("/images/card-01.jpg");
+    background-image: url("../images/card-01.jpg");
     background-size: cover;
     background-position: center;
     width: 334px;
@@ -304,7 +304,7 @@
 }
 
 .lots__card-type-book {
-    background-image: url("/images/card-02.jpg");
+    background-image: url("../images/card-02.jpg");
     background-size: cover;
     background-position: center;
     width: 334px;
@@ -312,7 +312,7 @@
 }
 
 .lots__card-type-picture {
-    background-image: url("/images/card-03.jpg");
+    background-image: url("../images/card-03.jpg");
     background-size: cover;
     background-position: center;
     width: 334px;
