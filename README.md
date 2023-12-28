@@ -39,7 +39,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repository:
 
-   ```sh git clone https://github.com/r4sk01/ono-tebe-nado```
+   ```sh git clone https://github.com/r4sk01/ono-tebe-nado.git```
 
 2. Navigate to the project directory:
 
@@ -69,4 +69,4 @@ Distributed under the MIT License. See LICENSE for more information.
 
 Andrei Bachinin - bachinin.the@gmail.com
 
-Project Link: [https://github.com/r4sk01/ono-tebe-nado](https://github.com/r4sk01/ono-tebe-nado)
+Project Link: [https://github.com/r4sk01/ono-tebe-nado.git](https://github.com/r4sk01/ono-tebe-nado.git)
