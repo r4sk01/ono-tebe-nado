@@ -378,7 +378,7 @@
 
 .about__logo {
     display: flex;
-    padding: 35px 47px 320px 47px;
+    padding: 35px 47px 0 47px;
 }
 
 .about__logo__container {
