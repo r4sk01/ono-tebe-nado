@@ -24,8 +24,6 @@
 }
 
 .header__menu-item {
-    text-decoration: underline;
-    text-underline-offset: 5px;
     position: relative;
     /*Создал margin слева в 32px */
     /*В эти 32px должно влезть кольцо разделитель, которое 7x7 px, при этом кольцо ровно по середине этого расстояния */
@@ -57,9 +55,11 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
-.header__menu-item.header__menu-item_active {
+.header__menu-link_active {
     text-decoration: none;
     list-style: none;
 }
