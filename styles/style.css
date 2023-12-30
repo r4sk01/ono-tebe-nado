@@ -276,6 +276,10 @@
     column-gap: 25px;
 }
 
+.lots__list-item {
+    position: relative;
+}
+
 .lots__list-item-link {
     text-decoration: none;
 }
@@ -285,10 +289,12 @@
     background-position: center;
     width: 334px;
     min-height: 563px;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
-    /*justify-content: space-between;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: -2;
 }
 
 .lots__card-type-film {
@@ -304,12 +310,11 @@
 }
 
 .lots__card-overlay {
-    min-height: 563px;
+    height: inherit;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
     background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .lots__card-title {
