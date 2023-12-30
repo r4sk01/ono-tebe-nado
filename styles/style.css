@@ -280,28 +280,23 @@
     text-decoration: none;
 }
 
-.lots__card-type-film {
-    background-image: url("../images/card-01.jpg");
+.lots__card {
     background-size: cover;
     background-position: center;
     width: 334px;
     height: 563px;
+}
+
+.lots__card-type-film {
+    background-image: url("../images/card-01.jpg");
 }
 
 .lots__card-type-book {
     background-image: url("../images/card-02.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 334px;
-    height: 563px;
 }
 
 .lots__card-type-picture {
     background-image: url("../images/card-03.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 334px;
-    height: 563px;
 }
 
 .lots__card-overlay {
