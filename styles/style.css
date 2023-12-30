@@ -14,7 +14,7 @@
 /* ============        */
 
 .header__menu {
-    width: 387px;
+    max-width: 387px;
     margin: 44px 40px 39px 26px;
 }
 
