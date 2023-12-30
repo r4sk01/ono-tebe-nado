@@ -202,7 +202,8 @@
 }
 
 .cover__info-text {
-    width: 635px;
+    width: 100%;
+    max-width: 635px;
     height: 28px;
     /* Использование 17px вызывает несоответствие шаблону */
     word-spacing: 18px;
