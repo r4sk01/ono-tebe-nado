@@ -75,7 +75,7 @@
 }
 
 .header__address {
-    margin: 5px 25px 2px 185px;
+    margin: 5px 25px 2px auto;
 }
 
 .address__link {
