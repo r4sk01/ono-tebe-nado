@@ -488,8 +488,6 @@
 }
 
 .footer__menu-item {
-    text-decoration: underline;
-    text-underline-offset: 5px;
     text-align: center;
 }
 
@@ -504,6 +502,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 /* ============      */
