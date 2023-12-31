@@ -20,7 +20,6 @@
 
 .header__menu-list {
     display: flex;
-    list-style: none;
 }
 
 .header__menu-item {
@@ -481,11 +480,6 @@
     text-align: center;
 }
 
-.footer__menu-item.footer__menu-item_active {
-    text-decoration: none;
-    list-style: none;
-}
-
 .footer__menu-link {
     color: #000;
     font-size: 18px;
@@ -494,6 +488,10 @@
     line-height: normal;
     text-decoration: underline;
     text-underline-offset: 5px;
+}
+
+.footer__menu-link-active {
+    text-decoration: none;
 }
 
 /* ============      */
