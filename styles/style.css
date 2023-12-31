@@ -117,7 +117,7 @@
     z-index: -2;
 }
 
-.cover__overlay {
+.overlay {
     height: inherit;
     position: absolute;
     inset: 0;
@@ -293,14 +293,6 @@
 
 .lots__card-type-picture {
     background-image: url("../images/card-03.jpg");
-}
-
-.lots__card-overlay {
-    height: inherit;
-    position: absolute;
-    inset: 0;
-    z-index: -1;
-    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .lots__card-title {
