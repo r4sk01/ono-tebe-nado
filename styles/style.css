@@ -134,44 +134,22 @@
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 30px;
 }
 
 /* ============           */
 /* 2.2.1 COVER TITLE TEXT */
 /* ============           */
 
-.cover__title-font-general {
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 100%;
-}
-
-.cover__title-font-first-special-height {
-    line-height: 115%;
-}
-
-.cover__align__text-left {
-    text-align: left;
-}
-
-.cover__align__text-right {
-    text-align: right;
-}
-
-.cover__letter-display {
-    display: inline-block;
-}
-
-.cover__letter_spacing_none {
+.cover__spacing-none {
     letter-spacing: 0;
 }
 
-.cover__letter_spacing_30 {
-    letter-spacing: 30px;
-}
-
-.cover__letter_spacing_60 {
+.cover__spacing-extended {
     letter-spacing: 60px;
 }
 
@@ -182,6 +160,8 @@
 .cover__title__part-one {
     padding-top: 165px;
     padding-left: 50px;
+    text-align: left;
+    line-height: 115%;
 }
 
 .cover__title__part-two {
@@ -192,6 +172,7 @@
 .cover__title__part-three {
     padding-top: 20px;
     padding-right: 50px;
+    text-align: right;
 }
 
 /* ============   */
